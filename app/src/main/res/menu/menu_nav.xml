@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navPlay"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/nav_start"
+            android:checked="true"
+        />
+        <item
+            android:id="@+id/navSettings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/nav_settings"
+                />
+        <item
+            android:id="@+id/navShop"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/nav_shop"
+            />
+
+    </group>
+    <item android:title="@string/nav_other">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/nav_help"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="@string/nav_feedback" />
+        </menu>
+    </item>
+</menu>
